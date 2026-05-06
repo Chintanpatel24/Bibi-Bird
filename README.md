@@ -114,7 +114,7 @@ There Is A Lot Lol
  - [X] CSRF Attacks (beta)
 
 # Need Help?
-Check out https://github.com/alfredredbird/Bibi-Bird/issues or the WiKi for help.
+Check out [Bibi-Bird/issues](https://github.com/alfredredbird/Bibi-Bird/issues) or the WiKi for help.
 Still Need Help? Contact Below :D
 
 # Info:
@@ -136,13 +136,13 @@ Still Need Help? Contact Below :D
 
 # Contact
 
-- Twitter: https://twitter.com/alfredredbird1
-- LinkedIn: https://www.linkedin.com/in/jeffrey-montanari-7178a1290/
+- Twitter: [alfredredbird1](https://twitter.com/alfredredbird1)
+- LinkedIn: [jeffrey montanari](https://www.linkedin.com/in/jeffrey-montanari-7178a1290)
 
 # Other Tools
 
 Other tools in the fleet:
-- Tookie-OSINT: http://github.com/alfredredbird/tookie-osint
+- Tookie-OSINT: [Tookie-OSINT](http://github.com/alfredredbird/tookie-osint)
   
 # Partnership
 Want to partner with the Bibi-Bird project? Feel free to reach out!
