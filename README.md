@@ -21,6 +21,15 @@ Bibi Bird is a tool writen in python that tests websites for SQL Injections, XSS
     cd Bibi-Bird && sudo pip3 install -r requirements.txt
     python3 Bibi-Bird
 
+# CLI Modes
+
+- SQL injection mode: `python3 main.py -u https://target.tld/login -i`
+- SQL injection with custom wordlist: `python3 main.py -u https://target.tld/login -i -w dict/sql-common.txt`
+- SQL error detection mode: `python3 main.py -u https://target.tld/page --sql-detect`
+- XSS URL mode: `python3 main.py -u "https://target.tld/search?" -x 1`
+- XSS form mode: `python3 main.py -u https://target.tld/login -x 2`
+- CSRF request replay mode: `python3 main.py -u https://target.tld -c tests/request.txt -r 25`
+- Save report output: `python3 main.py -u https://target.tld -i --report data/report.json`
 
 # Tested OS
 
