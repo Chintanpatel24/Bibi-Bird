@@ -111,13 +111,13 @@ There Is A Lot Lol
  (They Are Great First Issues :D)
 
  - [x] SQL Injections
- - [ ] SQL Detections
+ - [x] SQL Detections
  - [ ] DNS Scanning
  - [ ] URL Brute Forcing
- - [ ] Reports
+ - [x] Reports
  - [X] XSS Injecting
  - [ ] Site OSINT
- - [ ] Custom Wordlists
+ - [x] Custom Wordlists
  - [ ] Payload Generation
  - [X] Payload Selection
  - [X] CSRF Attacks (beta)
