@@ -47,8 +47,14 @@ def normalize_url(raw_url):
 
 def write_report(path, report_data):
     report_data["generated_at"] = datetime.utcnow().isoformat() + "Z"
-    with open(path, "w") as report_file:
-        json.dump(report_data, report_file, indent=2)
+    try:
+         parent_dir = os.path.dirname(path)
+         if parent_dir:
+             os.makedirs(parent_dir, exist_ok=True)
+         with open(path, "w") as report_file:
+             json.dump(report_data, report_file, indent=2)
+     except OSError as exc:
+         print(f"Failed to write report to '{path}': {exc}")
 
 # main functions on start up
 
